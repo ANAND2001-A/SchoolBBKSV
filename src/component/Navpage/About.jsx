@@ -5,9 +5,12 @@ const About = () => {
     <div className="container mx-auto p-4">
       {/* Introduction */}
       <section className="text-center mb-8">
-        <h1 className="text-3xl font-bold text-blue-600">Welcome to [College Name]</h1>
-        <p className="text-lg text-gray-700 mt-2">A place of excellence in education and community.</p>
-      </section>
+  <h1 className="text-3xl font-bold text-blue-600 whitespace-nowrap">
+    Welcome to <span className="text-[#4FDBF6]"> बाबा बी.के. स्मारक विद्यालय</span>
+  </h1>
+  <p className="text-lg text-gray-700 mt-2">A place of excellence in education and community.</p>
+</section>
+
 
       {/* Mission and Vision */}
       <section className="mb-8">
